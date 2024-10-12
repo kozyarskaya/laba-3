@@ -1,7 +1,11 @@
-package main
+func M() float64 {
+    return p * v
+}
 
-import "fmt"
+func W() float64 {
+    return math.Sqrt(k / M())
+}
 
-func main() {
-	fmt.Println("Hello, world!!!")
+func T() float64 {
+    return 6 / W()
 }
